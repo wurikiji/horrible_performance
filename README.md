@@ -2,6 +2,8 @@
 
 > From https://www.computerenhance.com/p/clean-code-horrible-performance
 
+To jump to the results, you can use [a table of contents in github.](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/)
+
 # How to run
 
 Execute `./run.sh`. It will compile the code and run it.
