@@ -22,50 +22,13 @@ get the average.
 
 ## Machine: MacBook Air (M1, 2020, 16GB Memory, Ventura 13.2.1)
 
-===== Dart VM =====
-
-- Clean - Elapsed time: 8342us
-- Switch - Elapsed time: 8555us, 0.9751022793687901x
-- Inline - Elapsed time: 8727us, 0.9558840380428555x
-
-===== Dart Compiled =====
-
-- Clean - Elapsed time: 9707us
-- Switch - Elapsed time: 10541us, 0.9208803718812257x
-- Inline - Elapsed time: 7468us, 1.299812533476165x
-
-===== CPP Compiled with -g -O0 =====
-
-- Clean - Elapsed time: 7058us
-- Switch - Elapsed time: 8306us, 0.849747x
-- Inline - Elapsed time: 4644us, 1.51981x
-
-===== CPP Compiled with -O0 =====
-
-- Clean - Elapsed time: 6680us
-- Switch - Elapsed time: 8665us, 0.770917x
-- Inline - Elapsed time: 4275us, 1.56257x
-
-===== CPP Compiled with -O1 =====
-
-- Clean - Elapsed time: 5693us
-- Switch - Elapsed time: 4751us, 1.19827x
-- Inline - Elapsed time: 1649us, 3.4524x
-
-===== CPP Compiled with -O2 =====
-
-- Clean - Elapsed time: 4299us
-- Switch - Elapsed time: 3924us, 1.09557x
-- Inline - Elapsed time: 1778us, 2.41789x
-
-===== CPP Compiled with -O3 =====
-
-- Clean - Elapsed time: 6711us
-- Switch - Elapsed time: 4449us, 1.50843x
-- Inline - Elapsed time: 1042us, 6.4405x
-
-===== CPP Compiled with -Ofast =====
-
-- Clean - Elapsed time: 7128us
-- Switch - Elapsed time: 4908us, 1.45232x
-- Inline - Elapsed time: 1324us, 5.38369x
+| Language                 | Clean  | Switch                       | Inline                      |
+| ------------------------ | ------ | ---------------------------- | --------------------------- |
+| Dart VM                  | 8342us | 8555us, 0.9751022793687901x  | 8727us, 0.9558840380428555x |
+| Dart Compiled            | 9707us | 10541us, 0.9208803718812257x | 7468us, 1.299812533476165x  |
+| CPP Compiled with -g -O0 | 7058us | 8306us, 0.849747x            | 4644us, 1.51981x            |
+| CPP Compiled with -O0    | 6680us | 8665us, 0.770917x            | 4275us, 1.56257x            |
+| CPP Compiled with -O1    | 5693us | 4751us, 1.19827x             | 1649us, 3.4524x             |
+| CPP Compiled with -O2    | 4299us | 3924us, 1.09557x             | 1778us, 2.41789x            |
+| CPP Compiled with -O3    | 6711us | 4449us, 1.50843x             | 1042us, 6.4405x             |
+| CPP Compiled with -Ofast | 7128us | 4908us, 1.45232x             | 1324us, 5.38369x            |
