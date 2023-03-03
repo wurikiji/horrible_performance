@@ -18,7 +18,7 @@ get the average.
 
 # Results for 100000 iterations
 
-Machine: MacBook Air (M1, 2020, 16GB Memory, Ventura 13.2.1)
+## Machine: MacBook Air (M1, 2020, 16GB Memory, Ventura 13.2.1)
 
 ===== Dart VM =====
 

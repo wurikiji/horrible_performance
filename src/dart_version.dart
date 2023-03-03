@@ -148,7 +148,7 @@ void main(List args) {
   sw.stop();
   final vtblTime = sw.elapsedMicroseconds;
 
-  print('Clean - Elapsed time: ${vtblTime}us');
+  print('- Clean - Elapsed time: ${vtblTime}us');
 
   final unions = List.generate(
     loop,
@@ -167,7 +167,7 @@ void main(List args) {
   sw.stop();
   final unionTime = sw.elapsedMicroseconds;
 
-  print('Switch - Elapsed time: ${unionTime}us, ${vtblTime / unionTime}x');
+  print('- Switch - Elapsed time: ${unionTime}us, ${vtblTime / unionTime}x');
 
   final simple = List.generate(
     loop,
@@ -194,5 +194,5 @@ void main(List args) {
   _ = accumAreaInline(simple);
   sw.stop();
   final simpleTime = sw.elapsedMicroseconds;
-  print('Inline - Elapsed time: ${simpleTime}us, ${vtblTime / simpleTime}x');
+  print('- Inline - Elapsed time: ${simpleTime}us, ${vtblTime / simpleTime}x');
 }

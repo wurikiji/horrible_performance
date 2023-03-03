@@ -159,7 +159,7 @@ int main(int argc, char* argv[]) {
   elapsed = elapsed * 1000000 / CLOCKS_PER_SEC;
 
   // print out elapsed clock
-  cout << "Clean - Elapsed time: " << elapsed << "us" << endl;
+  cout << "- Clean - Elapsed time: " << elapsed << "us" << endl;
 
   // create vector of UnionShape pointers
   vector<UnionShape*> shapes2;
@@ -190,7 +190,7 @@ int main(int argc, char* argv[]) {
   elapsed2 = elapsed2 * 1000000 / CLOCKS_PER_SEC;
 
   // print out elapsed clock with ratio of elapsed
-  cout << "Switch - Elapsed time: " << elapsed2 << "us, "
+  cout << "- Switch - Elapsed time: " << elapsed2 << "us, "
        << double(elapsed) / elapsed2 << "x" << endl;
 
   // create vector of ShapeWithRate pointers
@@ -228,7 +228,7 @@ int main(int argc, char* argv[]) {
   elapsed3 = elapsed3 * 1000000 / CLOCKS_PER_SEC;
 
   // print out elapsed clock with ratio of elapsed
-  cout << "Inline - Elapsed time: " << elapsed3 << "us, "
+  cout << "- Inline - Elapsed time: " << elapsed3 << "us, "
        << double(elapsed) / elapsed3 << "x" << endl;
 
   return 0;
