@@ -22,13 +22,13 @@ get the average.
 
 ## Machine: MacBook Air (M1, 2020, 16GB Memory, Ventura 13.2.1)
 
-| Language                 | Clean   | Switch           | Inline         |
-| ------------------------ | ------- | ---------------- | -------------- |
-| Dart VM                  | 8,342us | 8,555us(0.975x)  | 8727us(0.955x) |
+| Language                 |   Clean |           Switch |         Inline |
+| ------------------------ | ------: | ---------------: | -------------: |
+| Dart VM                  | 8,342us |  8,555us(0.975x) | 8727us(0.955x) |
 | Dart Compiled            | 9,707us | 10,541us(0.920x) | 7468us(1.299x) |
-| CPP Compiled with -g -O0 | 7,058us | 8,306us(0.849x)  | 4644us(1.519x) |
-| CPP Compiled with -O0    | 6,680us | 8,665us(0.770x)  | 4275us(1.562x) |
-| CPP Compiled with -O1    | 5,693us | 4,751us(1.198x)  | 1649us(3.452x) |
-| CPP Compiled with -O2    | 4,299us | 3,924us(1.095x)  | 1778us(2.417x) |
-| CPP Compiled with -O3    | 6,711us | 4,449us(1.508x)  | 1042us(6.440x) |
-| CPP Compiled with -Ofast | 7,128us | 4,908us(1.452x)  | 1324us(5.383x) |
+| CPP Compiled with -g -O0 | 7,058us |  8,306us(0.849x) | 4644us(1.519x) |
+| CPP Compiled with -O0    | 6,680us |  8,665us(0.770x) | 4275us(1.562x) |
+| CPP Compiled with -O1    | 5,693us |  4,751us(1.198x) | 1649us(3.452x) |
+| CPP Compiled with -O2    | 4,299us |  3,924us(1.095x) | 1778us(2.417x) |
+| CPP Compiled with -O3    | 6,711us |  4,449us(1.508x) | 1042us(6.440x) |
+| CPP Compiled with -Ofast | 7,128us |  4,908us(1.452x) | 1324us(5.383x) |
