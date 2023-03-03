@@ -11,3 +11,4 @@ pubspec.lock
 cpp_version
 dart_version
 cpp_version.dSYM
+.vscode
