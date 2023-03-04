@@ -18,7 +18,7 @@ Execute `./run.sh`. It will compile the code and run it.
 This is for fun, so you don't need to repeat the experiments to
 get the average.
 
-# Results for 100000 iterations
+# Results for 100,000 iterations
 
 ## Machine: MacBook Air (M1, 2020, 16GB Memory, Ventura 13.2.1)
 
