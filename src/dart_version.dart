@@ -141,7 +141,7 @@ void main(List args) {
     ],
   ).expand((element) => element).toList()
     // shuffle
-    ..sort((a, b) => Random().nextBool() ? 1 : -1);
+    ..shuffle();
 
   final sw = Stopwatch()..start();
   var _ = accumAreaVTable(vtbls);
@@ -160,7 +160,7 @@ void main(List args) {
     ],
   ).expand((element) => element).toList()
     // shuffle
-    ..sort((a, b) => Random().nextBool() ? 1 : -1);
+    ..shuffle();
   sw.reset();
   sw.start();
   _ = accumAreaSwitch(unions);
@@ -187,7 +187,7 @@ void main(List args) {
     ],
   ).expand((element) => element).toList()
     // shuffle
-    ..sort((a, b) => Random().nextBool() ? 1 : -1);
+    ..shuffle();
 
   sw.reset();
   sw.start();
